@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&amp;display=swap"
+    />
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/aos.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/styles-1.css" />
+    <link rel="stylesheet" href="assets/css/Banner-Heading-Image-images.css" />
+    <link rel="stylesheet" href="assets/css/Navbar-With-Button-icons.css" />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-light navbar-expand-md sticky-top border-light shadow py-3"
+      style="
+        color: var(--bs-navbar-hover-color);
+        background: linear-gradient(#e3dfdf 0%, white), var(--bs-white);
+        backdrop-filter: opacity(1);
+        -webkit-backdrop-filter: opacity(1);
+        opacity: 1;
+        border-radius: 33px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 33px;
+        border-top-left-radius: 0px;
+      "
+    >
+      <div class="container">
+        <img src="assets/img/LOgo.png" style="width: 82px" /><a
+          class="navbar-brand d-flex align-items-center"
+          href="#"
+          ><span style="font-size: 28px"><strong>beFIT</strong></span></a
+        ><button
+          data-bs-toggle="collapse"
+          class="navbar-toggler"
+          data-bs-target="#navcol-1"
+        >
+          <span class="visually-hidden">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="#"
+                data-bs-target="#modal-8"
+                data-bs-toggle="modal"
+                >Baritic Surgeries</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                data-bs-target="#modal-6"
+                data-bs-toggle="modal"
+                >Calories intake</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                data-bs-target="#modal-7"
+                data-bs-toggle="modal"
+                >Diets</a
+              >
+            </li>
+          </ul>
+          <button
+            class="btn btn-success pulse animated infinite"
+            type="button"
+            style="background: var(--bs-blue)"
+            data-bs-target="#modal-2"
+            data-bs-toggle="modal"
+          >
+            Keep in touch
+          </button>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <img
+        class="img-fluid d-none float-md-none"
+        data-aos="fade"
+        data-aos-delay="700"
+        src="assets/img/women-asia-exercise-to-lose-weight-women-who-wear-2022-12-03-04-07-09-utc.jpg"
+      />
+      <div
+        data-bss-scroll-zoom="true"
+        data-bss-scroll-zoom-speed="1"
+        style="
+          background-image: url('assets/img/women-asia-exercise-to-lose-weight-women-who-wear-2022-12-03-04-07-09-utc.jpg');
+          background-position: center;
+          background-size: cover;
+          max-height: 400px;
+        "
+      >
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+          style="
+            padding-bottom: 10px;
+            padding-left: 31px;
+            padding-right: 31px;
+            background: var(--bs-border-color-translucent);
+            margin-top: -35px;
+            padding-top: 38px;
+          "
+        >
+          <h1
+            style="
+              text-align: center;
+              color: rgb(255, 255, 255);
+              text-shadow: 1px 1px 6px var(--bs-gray-dark);
+            "
+          >
+            <strong>Do you know </strong><br /><strong>what BMI is </strong
+            ><br /><strong>and how it is </strong><br /><strong
+              >calculated?</strong
+            >
+          </h1>
+          <p
+            class="d-flex flex-column"
+            style="
+              text-align: center;
+              max-width: 289px;
+              color: rgb(255, 255, 255);
+              text-shadow: 1px 1px 1px var(--bs-gray-800);
+              border-color: rgb(21, 15, 15);
+            "
+          >
+            BMI stands for Body Mass Index. It is a measurement that is commonly
+            used to assess whether a person has a healthy body weight in
+            relation to their height
+          </p>
+          <button
+            class="btn btn-primary d-flex justify-content-center align-items-center"
+            type="button"
+            data-bs-target="#modal-1"
+            data-bs-toggle="modal"
+            style="background: var(--bs-btn-hover-border-color)"
+          >
+            Tell Me more
+          </button>
+        </div>
+      </div>
+    </section>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div
+            class="modal-header"
+            style="
+              background: linear-gradient(#002b7f, #0072c6), var(--bs-indigo);
+            "
+          >
+            <h4 class="modal-title" style="color: var(--bs-modal-bg)">
+              What is BMI? And why it is Very important?
+            </h4>
+            <button
+              class="btn-close"
+              type="button"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-thumbnail img-fluid border rounded-pill border-1 shadow-sm d-flex flex-column"
+              data-aos="zoom-in"
+              data-aos-duration="600"
+              src="assets/img/presenting-the-plan-2021-08-27-09-31-47-utc.jpg"
+              loading="lazy"
+              style="padding-left: 0px"
+            />
+            <p style="text-align: left; padding-top: 24px">
+              BMI stands for Body Mass Index. It is a measure used to assess the
+              relationship between a person's weight and height. The BMI is
+              calculated by dividing a person's weight in kilograms by the
+              square of their height in meters.<br />The BMI is commonly used as
+              a screening tool to estimate whether a person has a healthy body
+              weight for their height. It provides a general indication of
+              whether a person is underweight, normal weight, overweight, or
+              obese. Here are the standard BMI categories:<br /><br />-
+              Underweight: BMI less than 18.5<br /><br />- Normal weight: BMI
+              between 18.5 and 24.9<br /><br />- Overweight: BMI between 25 and
+              29.9<br /><br />- Obese: BMI 30 or higher<br /><br />BMI is
+              important because it can help identify potential health risks
+              associated with weight. While it does not directly measure body
+              fat percentage or distinguish between fat and muscle, it serves as
+              a useful initial assessment tool. Here are some reasons why BMI is
+              considered important:<br /><br />1. Health risk assessment: BMI
+              can give an indication of whether an individual's weight falls
+              within a healthy range or if they are at an increased risk of
+              developing certain health conditions, such as cardiovascular
+              diseases, type 2 diabetes, and certain types of cancer.<br /><br />2.
+              Public health monitoring: BMI data is often used at the population
+              level to track trends in weight-related health issues and assess
+              the prevalence of obesity and overweight within a community or
+              country.<br /><br />3. Treatment planning: BMI is used by
+              healthcare professionals to guide treatment decisions and
+              interventions. It can help determine if weight loss or weight gain
+              is necessary for an individual's overall health.<br /><br />However,
+              it's important to note that BMI is a basic measurement and does
+              not take into account other factors such as muscle mass, body
+              composition, and distribution of fat. Therefore, it may not be
+              accurate for certain individuals, such as athletes or individuals
+              with a higher muscle mass.<br /><br />For a comprehensive
+              assessment of an individual's health, it is recommended to consult
+              with a healthcare professional who can consider additional factors
+              and perform a thorough evaluation.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-light" type="button" data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div
+        class="container"
+        style="background: linear-gradient(black, white), #ffffff"
+      >
+        <div class="row">
+          <div
+            class="col text-bg-light"
+            style="
+              --bs-body-bg: var(--bs-body-bg);
+              border-radius: 0;
+              background: rgb(242, 242, 242);
+            "
+          >
+            <p style="padding-top: 27px">
+              BMI Calculation: Our user-friendly interface allows you to easily
+              input your height and weight information. With just a few clicks,
+              our website will calculate your BMI and categorize it into one of
+              the standard ranges: underweight, normal weight, overweight, or
+              obese. This information serves as an initial assessment of your
+              weight status.
+            </p>
+          </div>
+          <div
+            class="col-md-12"
+            style="
+              background: #f2f2f2;
+              transform-style: preserve-3d;
+              transition: ease-in;
+              padding-top: 17px;
+              padding-bottom: 17px;
+            "
+          >
+            <p
+              class="fs-4 fw-bolder bounce animated"
+              style="
+                margin-top: 0px;
+                margin-bottom: 0px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+              "
+            >
+              <span style="font-weight: normal !important"
+                >You can calculate your BMI here !</span
+              ><i
+                class="far fa-hand-point-down text-info bounce animated infinite"
+                style="
+                  padding-left: 23px;
+                  margin-right: 17px;
+                  padding-right: 0px;
+                "
+              ></i>
+            </p>
+            <h1
+              class="fs-5 fw-semibold text-center border rounded-pill border-1 shadow-sm"
+            >
+              Please enter your height and weight information and press the
+              calculate button.
+            </h1>
+          </div>
+        </div>
+      </div>
+      <section
+        class="main-section"
+        style="margin-top: 16px; border-radius: 25px"
+      >
+        <h1>BMI Calculator</h1>
+        <div class="input-container">
+          <label class="form-label" for="weight">Weight (kg):</label
+          ><input type="number" id="weight" />
+        </div>
+        <div class="input-container">
+          <label class="form-label" for="height">Height (cm):</label
+          ><input type="number" id="height" />
+        </div>
+        <button class="calculate-btn">Calculate</button>
+        <div id="result-container"></div>
+      </section>
+    </section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 style="text-align: center; font-weight: bold">
+            It's always better to seek help from professionals.
+          </h1>
+          <p style="text-align: center">
+            It is better to use proper methods to achieve your ideal weight, and
+            most importantly, before embarking on any diet, make sure to consult
+            with a healthcare professional to assess your health conditions,
+            especially if you have underlying conditions such as heart disease,
+            diabetes, or cancer.
+          </p>
+          <section class="py-4 py-xl-5" style="margin-top: -28px">
+            <div class="container">
+              <div
+                class="bg-dark border rounded border-0 border-dark overflow-hidden"
+              >
+                <div class="row g-0">
+                  <div class="col-md-6" style="background: #6c757d">
+                    <div
+                      class="text-white bg-secondary p-4 p-md-5"
+                      style="border-radius: 0px"
+                    >
+                      <h2 class="fs-1 fw-bold text-white mb-3">
+                        Do you need Assist?
+                      </h2>
+                      <p class="mb-4" style="font-size: 15px">
+                        t is better to use proper methods to achieve your ideal
+                        weight, and most importantly, before embarking on any
+                        diet, make sure to consult with a healthcare
+                        professional to assess your health conditions,
+                        especially if you have underlying conditions such as
+                        heart disease, diabetes, or cancer.
+                      </p>
+                      <div class="my-3">
+                        <a
+                          class="btn btn-primary btn-lg me-2"
+                          role="button"
+                          href="#"
+                          style="font-size: 17px"
+                          data-bs-target="#modal-4"
+                          data-bs-toggle="modal"
+                          >Yes please...</a
+                        ><a
+                          class="btn btn-light btn-lg"
+                          role="button"
+                          href="#"
+                          style="font-size: 17px; margin-top: 4px"
+                          data-bs-target="#modal-3"
+                          data-bs-toggle="modal"
+                          >Tell me more</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-6 order-first order-md-last"
+                    style="min-height: 250px"
+                  >
+                    <img
+                      class="w-100 h-100 fit-cover"
+                      src="assets/img/glad-professional-doctor-concentrated-in-modern-la-2021-10-21-03-37-31-utc.jpg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card shadow" data-bss-hover-animate="pulse">
+            <img
+              class="card-img w-100 d-block"
+              data-bss-hover-animate="pulse"
+              src="assets/img/apple-with-measuring-tape-on-hand-background-weig-2022-11-17-16-22-18-utc.jpg"
+            />
+            <div class="card-img-overlay">
+              <h4
+                style="
+                  font-weight: bold;
+                  backdrop-filter: opacity(0.5) blur(100px) brightness(200%)
+                    contrast(200%) hue-rotate(0deg) saturate(81%);
+                  -webkit-backdrop-filter: opacity(0.5) blur(100px)
+                    brightness(200%) contrast(200%) hue-rotate(0deg)
+                    saturate(81%);
+                  filter: brightness(132%);
+                  color: var(--bs-body-color);
+                "
+              >
+                What is calorie control?
+              </h4>
+              <button
+                class="btn btn-primary d-flex flex-column justify-content-center align-self-start me-auto justify-content-sm-start align-items-sm-start mt-lg-1 mt-xl-4"
+                type="button"
+                style="
+                  background: var(--bs-card-border-color);
+                  font-weight: bold;
+                  text-shadow: 1px 1px 10px var(--bs-gray-dark);
+                  backdrop-filter: brightness(48%);
+                  -webkit-backdrop-filter: brightness(48%);
+                "
+                data-bs-target="#modal-6"
+                data-bs-toggle="modal"
+              >
+                let me know
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow" data-bss-hover-animate="pulse">
+            <img
+              class="card-img w-100 d-block"
+              src="assets/img/diet-and-nutrition-png.jpg"
+            />
+            <div
+              class="card-img-overlay"
+              style="margin-top: 12px; margin-bottom: 12px"
+            >
+              <h4
+                style="
+                  font-weight: bold;
+                  backdrop-filter: opacity(0.41) blur(100px) brightness(200%)
+                    contrast(98%);
+                  -webkit-backdrop-filter: opacity(0.41) blur(100px)
+                    brightness(200%) contrast(98%);
+                "
+                class="mt-xl-0 pt-xl-0 mb-md-4 mb-xxl-2 mb-xl-3"
+              >
+                Types of diets
+              </h4>
+              <button
+                class="btn btn-primary"
+                type="button"
+                style="
+                  background: var(--bs-card-border-color);
+                  color: var(--bs-gray-100);
+                  font-weight: bold;
+                  text-shadow: -1px 1px 8px var(--bs-gray-dark);
+                  backdrop-filter: brightness(53%);
+                  -webkit-backdrop-filter: brightness(53%);
+                "
+                data-bs-target="#modal-7"
+                data-bs-toggle="modal"
+              >
+                let me know
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow" data-bss-hover-animate="pulse">
+            <img class="card-img w-100 d-block" src="assets/img/Baritic.jpg" />
+            <div class="card-img-overlay">
+              <h4
+                style="
+                  font-weight: bold;
+                  backdrop-filter: opacity(1) brightness(200%) contrast(200%);
+                  -webkit-backdrop-filter: opacity(1) brightness(200%)
+                    contrast(200%);
+                "
+              >
+                Weight loss surgeries
+              </h4>
+              <button
+                class="btn btn-primary mt-lg-4 mt-xl-3"
+                type="button"
+                style="
+                  background: var(--bs-card-border-color);
+                  font-weight: bold;
+                  text-shadow: -1px 1px 10px var(--bs-gray-dark);
+                  backdrop-filter: brightness(43%);
+                  -webkit-backdrop-filter: brightness(43%);
+                "
+                data-bs-target="#modal-8"
+                data-bs-toggle="modal"
+              >
+                let me know
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="car">
+      <h1
+        class="fs-1"
+        style="
+          padding-top: 17px;
+          margin-bottom: 19px;
+          font-weight: bold;
+          text-align: center;
+        "
+      >
+        You can do it too.
+      </h1>
+      <p style="text-align: center; padding-left: 66px; padding-right: 66px">
+        In this section, you can find several real-life examples of individuals
+        who have truly made the decision and managed to reach their ideal
+        weight. Now all you have to do is believe that you can do it too.
+      </p>
+      <div
+        class="carousel slide d-flex d-xl-flex flex-column justify-content-center align-items-center align-content-center mx-auto justify-content-xl-center align-items-xl-center"
+        data-bs-ride="carousel"
+        data-bs-interval="3000"
+        data-bs-pause="false"
+        id="carousel-1"
+        style="
+          margin-left: 82px;
+          margin-right: 82px;
+          margin-top: 19px;
+          margin-bottom: 19px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          max-height: 637px;
+          max-width: 699px;
+          position: relative;
+          width: auto;
+          border-radius: 2px;
+        "
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="img-fluid w-100 d-block"
+              src="assets/img/Carous1.jpg"
+              alt="Slide Image"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="w-100 d-block"
+              src="assets/img/Carous2.jpg"
+              alt="Slide Image"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="w-100 d-block"
+              src="assets/img/Hesam2.jpg"
+              alt="Slide Image"
+            />
+          </div>
+        </div>
+        <div>
+          <a
+            class="carousel-control-prev"
+            href="#carousel-1"
+            role="button"
+            data-bs-slide="prev"
+            ><span class="carousel-control-prev-icon"></span
+            ><span class="visually-hidden">Previous</span></a
+          ><a
+            class="carousel-control-next"
+            href="#carousel-1"
+            role="button"
+            data-bs-slide="next"
+            ><span class="carousel-control-next-icon"></span
+            ><span class="visually-hidden">Next</span></a
+          >
+        </div>
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#carousel-1"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+        </ol>
+      </div>
+      <footer class="text-center py-4">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-lg-3">
+            <div class="col">
+              <p class="text-muted my-2">Copyright&nbsp;© 2023 HesamFardi</p>
+            </div>
+            <div
+              class="col justify-content-center align-items-center align-self-center align-items-sm-center"
+            >
+              <ul class="list-inline my-2"></ul>
+              <iframe
+                class="align-items-center align-items-sm-center"
+                src="https://platform.twitter.com/widgets/follow_button.html?screen_name=FardiHesam&amp;show_screen_name=true&amp;show_count=true"
+                allowtransparency="true"
+                frameborder="0"
+                scrolling="no"
+                title="Follow FardiHesam on Twitter"
+                width="250"
+                height="30"
+                style="
+                  margin-left: 24px;
+                  margin-right: 24px;
+                  padding-left: 44px;
+                  padding-right: 44px;
+                "
+              ></iframe>
+            </div>
+            <div class="col">
+              <ul class="list-inline my-2">
+                <li class="list-inline-item">
+                  <a
+                    class="link-secondary"
+                    href="#"
+                    data-bs-target="#modal-5"
+                    data-bs-toggle="modal"
+                    >Version&nbsp; Info</a
+                  >
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="link-secondary"
+                    href="#"
+                    data-bs-target="#modal-9"
+                    data-bs-toggle="modal"
+                    >Terms of Use</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-2">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="background: var(--bs-blue)">
+            <h4
+              class="modal-title"
+              style="
+                font-family: 'Work Sans', sans-serif;
+                font-weight: bold;
+                color: rgb(255, 255, 255);
+              "
+            >
+              Contact Us&nbsp;
+            </h4>
+            <button
+              class="btn-close"
+              type="button"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid"
+              src="assets/img/Contact.jpg"
+              style="border-radius: 27px; border-width: 1px"
+            />
+            <p style="padding-top: 6px; padding-bottom: 6px">
+              I may not be an expert, but I can share my experiences with you.
+              You can follow me on Instagram, and if you'd like, feel free to
+              leave me a message, and I'll respond.
+            </p>
+            <iframe
+              class="d-flex d-lg-flex flex-column align-items-center align-content-center align-self-center mx-auto justify-content-lg-center"
+              src="https://www.instagram.com/p/CcDm3H1Na4O/embed"
+              allowtransparency="true"
+              frameborder="0"
+              scrolling="no"
+              width="320"
+              height="550"
+            ></iframe>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-light" type="button" data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-3">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="background: var(--bs-pink)">
+            <h4
+              class="modal-title fs-3"
+              style="
+                font-family: 'Work Sans', sans-serif;
+                font-weight: bold;
+                color: var(--bs-modal-bg);
+              "
+            >
+              very critical condition
+            </h4>
+            <button
+              class="btn-close"
+              type="button"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid shadow"
+              src="assets/img/health-care-costs-stethoscope-and-calculator-2022-05-19-14-24-46-utc.jpg"
+              style="border-radius: 42px"
+            />
+            <p
+              style="
+                padding-top: 31px;
+                padding-bottom: 31px;
+                padding-left: 12px;
+                padding-right: 12px;
+              "
+            >
+              <strong
+                >Seeking advice from healthcare professionals is essential when
+                it comes to weight loss for several reasons:</strong
+              ><br /><br />1. Personalized approach: Every individual is unique,
+              and their weight loss journey should be tailored to their specific
+              needs, health conditions, and goals. Healthcare professionals can
+              provide personalized guidance based on factors such as medical
+              history, current health status, and any underlying conditions.<br /><br />2.
+              Safety and health concerns: Losing weight in a healthy and safe
+              manner is crucial to avoid potential risks or complications.
+              Healthcare professionals can assess your overall health, identify
+              any underlying conditions that may impact weight loss, and guide
+              you towards safe and sustainable methods.<br /><br />3. Expert
+              knowledge and guidance: Healthcare professionals, such as
+              registered dietitians, nutritionists, or doctors, have specialized
+              knowledge and training in the field of weight management. They can
+              provide evidence-based recommendations, offer dietary and
+              lifestyle advice, monitor your progress, and make necessary
+              adjustments along the way.<br /><br />4. Accountability and
+              support: Having a healthcare professional as a guide can provide
+              accountability and support throughout your weight loss journey.
+              They can help you set realistic goals, track your progress,
+              address any challenges or setbacks, and provide motivation and
+              encouragement.<br /><br />5. Comprehensive approach: Weight loss
+              is not just about dieting; it involves various aspects such as
+              physical activity, behavior change, and overall lifestyle
+              modifications. Healthcare professionals can provide a
+              comprehensive approach by addressing these different factors and
+              creating a holistic plan for long-term success.<br /><br /><strong
+                ><em>Remember</em></strong
+              >, consulting with a healthcare professional does not only apply
+              to individuals with existing health conditions. Even if you are
+              generally healthy, their guidance can still be valuable in
+              ensuring that you approach weight loss in a safe and effective
+              manner, promoting overall well-being.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-light" type="button" data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-4">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="background: var(--bs-green)">
+            <h4
+              class="modal-title"
+              style="
+                font-family: 'Work Sans', sans-serif;
+                color: var(--bs-modal-bg);
+              "
+            >
+              <strong>Let me tell you where you must go</strong>
+            </h4>
+            <button
+              class="btn-close"
+              type="button"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid shadow"
+              src="assets/img/family-registering-at-vaccination-center-2021-09-24-04-16-04-utc.jpg"
+              style="border-radius: 16px"
+            />
+            <p
+              style="
+                padding-top: 21px;
+                padding-bottom: 21px;
+                padding-left: 9px;
+                padding-right: 9px;
+              "
+            >
+              To reach your ideal weight, you can consider consulting with the
+              following healthcare professionals:<br /><br />1. Registered
+              Dietitian or Nutritionist: These professionals specialize in
+              nutrition and can provide expert guidance on developing a
+              personalized and balanced meal plan, addressing nutritional
+              deficiencies, and managing your calorie intake effectively.<br /><br />2.
+              Primary Care Physician: Your primary care doctor can assess your
+              overall health, provide recommendations on weight loss strategies,
+              and help monitor any underlying medical conditions that may impact
+              your weight loss journey.<br /><br />3. Endocrinologist: If you
+              have hormonal imbalances or conditions such as thyroid disorders
+              that can affect weight, an endocrinologist can offer specialized
+              guidance and treatment options.<br /><br />4. Bariatric Physician:
+              Bariatric physicians specialize in medical weight management and
+              can provide comprehensive evaluation, guidance, and non-surgical
+              treatment options for weight loss.<br /><br />5. Obesity
+              Specialist: Obesity specialists have expertise in managing and
+              treating obesity-related health concerns. They can provide a
+              holistic approach to weight loss, including lifestyle
+              modifications, behavior therapy, and medical interventions when
+              necessary.<br /><br />6. Exercise Physiologist or Personal
+              Trainer: These professionals can assist in developing a customized
+              exercise program to support your weight loss goals, ensure proper
+              form and technique, and provide motivation and support.<br /><br />Remember,
+              the choice of healthcare professional may depend on your specific
+              needs, medical history, and preferences. It's important to seek
+              out reputable professionals who are qualified and experienced in
+              the field of weight management.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-light" type="button" data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-5">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="background: var(--bs-purple)">
+            <h4
+              class="modal-title"
+              style="font-weight: bold; color: rgb(255, 255, 255)"
+            >
+              Version info
+            </h4>
+            <button
+              class="btn-close"
+              type="button"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Version 1.0.0<br />This version Just make for Wekerle University
+              by mohammadhesam farditabrizi
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-light" type="button" data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-6">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header mb-0 pb-2" style="background: #00829b">
+            <h4
+              class="modal-title pb-0 mb-0"
+              style="
+                font-size: 19.48px;
+                font-family: 'Work Sans', sans-serif;
+                color: var(--bs-modal-bg);
+              "
+            >
+              <br /><strong>Calorie intake measurement</strong>
+            </h4>
+            <button
+              class="btn-close"
+              type="button"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Calorie intake measurement refers to quantifying the amount of
+              energy (calories) consumed from food and beverages. It helps
+              individuals monitor and control their daily energy intake for
+              weight management or other health-related goals.<br /><br />Here's
+              a general table providing calorie information for some common
+              foods per 100 grams. Please note that the calorie content can vary
+              based on factors such as cooking methods, brand variations, and
+              specific ingredients used:
+            </p>
+            <div class="table-responsive">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th style="background: var(--bs-gray-400)">Food</th>
+                    <th style="background: var(--bs-gray-300)">100 grams</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Apple</td>
+                    <td style="background: var(--bs-teal)">52 calories</td>
+                  </tr>
+                  <tr>
+                    <td>Banana</td>
+                    <td style="background: var(--bs-cyan)">96 calories</td>
+                  </tr>
+                  <tr>
+                    <td style="font-size: 14px">Chicken breast</td>
+                    <td style="background: var(--bs-cyan)">165 calories</td>
+                  </tr>
+                  <tr>
+                    <td style="font-size: 14px">White rice (cooked</td>
+                    <td style="background: var(--bs-cyan)">130 calories</td>
+                  </tr>
+                  <tr>
+                    <td style="font-size: 14px">Whole wheat bread</td>
+                    <td style="background: var(--bs-yellow)">247 calories</td>
+                  </tr>
+                  <tr>
+                    <td style="font-size: 16px">Salmon (cooked)</td>
+                    <td style="background: var(--bs-yellow)">206 calories</td>
+                  </tr>
+                  <tr>
+                    <td style="font-size: 15px">Eggs (boiled)</td>
+                    <td style="background: var(--bs-info)">155 calories</td>
+                  </tr>
+                  <tr>
+                    <td>Spinach (raw)</td>
+                    <td style="background: var(--bs-teal)">23 calories</td>
+                  </tr>
+                  <tr>
+                    <td style="font-size: 15px">Cheddar cheese:</td>
+                    <td style="background: var(--bs-red)">402 calories</td>
+                  </tr>
+                  <tr>
+                    <td>Almonds</td>
+                    <td style="background: var(--bs-danger)">579 calories</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              <br />Please keep in mind that this is just a small sample, and
+              calorie content can vary significantly depending on the specific
+              food, its preparation, and any added ingredients. When monitoring
+              your calorie intake, it is recommended to refer to reliable
+              sources such as food databases, nutrition labels, or consult with
+              a registered dietitian for accurate and up-to-date information
+              tailored to your needs.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-light" type="button" data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-7">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="background: var(--bs-warning)">
+            <h4
+              class="modal-title"
+              style="font-weight: bold; font-family: 'Work Sans', sans-serif"
+            >
+              Types of diets
+            </h4>
+            <button
+              class="btn-close"
+              type="button"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid shadow"
+              src="assets/img/different-types-of-sugar-and-diet-measuring-tape-o-2022-02-12-05-36-35-utc.jpg"
+              style="border-radius: 41px"
+            />
+            <p class="px-md-3 py-md-2">
+              Types of diets:<br /><br /><strong
+                ><em>1. Mediterranean Diet: </em></strong
+              >This diet emphasizes whole foods, including fruits, vegetables,
+              whole grains, lean proteins (such as fish and poultry), and
+              healthy fats (such as olive oil). It limits processed foods, red
+              meat, and added sugars.<br /><br /><strong
+                ><em>2. Keto Diet:</em></strong
+              >
+              The ketogenic diet is a low-carb, high-fat diet that aims to put
+              the body into a state of ketosis, where it primarily burns fat for
+              energy. It restricts carbohydrates and promotes foods rich in fats
+              and moderate protein intake.<br /><br /><strong
+                ><em>3. Paleo Diet:</em></strong
+              >
+              The paleolithic diet focuses on foods presumed to have been
+              consumed by early humans, such as lean meats, fish, fruits,
+              vegetables, nuts, and seeds. It excludes grains, legumes, dairy
+              products, and processed foods.<br /><br /><strong
+                ><em>4. Vegan Diet:</em></strong
+              >
+              A vegan diet excludes all animal products and by-products,
+              including meat, fish, dairy, eggs, and honey. It mainly consists
+              of fruits, vegetables, legumes, grains, nuts, and seeds.<br /><br /><strong
+                ><em>5. Atkins Diet:</em></strong
+              >
+              The Atkins diet is a low-carb diet that promotes weight loss
+              through the restriction of carbohydrates. It consists of different
+              phases, starting with a very low-carb intake and gradually
+              increasing carbohydrate consumption.<br /><br /><strong
+                ><em>6. DASH Diet:</em></strong
+              >
+              The Dietary Approaches to Stop Hypertension (DASH) diet aims to
+              lower blood pressure and promote overall health. It emphasizes
+              fruits, vegetables, whole grains, lean proteins, and low-fat dairy
+              products while limiting sodium, saturated fats, and added
+              sugars.<br /><br /><strong><em>7. Flexitarian Diet:</em></strong>
+              This flexible vegetarian diet encourages mostly plant-based foods
+              while allowing occasional consumption of meat and other animal
+              products.<br /><br /><strong
+                ><em>8. Weight Watchers (WW): </em></strong
+              >WW is a commercial weight loss program that assigns point values
+              to foods and promotes portion control and healthy eating
+              habits.<br /><br /><strong
+                ><em>9. Intermittent Fasting:</em></strong
+              >
+              Intermittent fasting involves cycling between periods of fasting
+              and eating. Popular methods include the 16/8 method (fasting for
+              16 hours and eating within an 8-hour window) or alternate-day
+              fasting.<br /><br /><strong
+                >It's important to note that before starting any diet,
+                consulting with a healthcare professional or a registered
+                dietitian is advisable to ensure it aligns with your specific
+                needs and health goals.</strong
+              >
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-light" type="button" data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-8">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="background: #008c82">
+            <h4 class="modal-title" style="font-weight: bold">
+              Bariatric surgeries
+            </h4>
+            <button
+              class="btn-close"
+              type="button"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid shadow"
+              src="assets/img/team-of-surgeons-performing-surgery-2022-03-07-17-45-20-utc.jpg"
+              style="border-radius: 32px"
+            />
+            <p class="pt-lg-3 pt-3 px-xl-3">
+              Bariatric surgeries, also known as weight loss surgeries, are
+              surgical procedures performed to aid in weight loss for
+              individuals with severe obesity or obesity-related health
+              conditions. These surgeries aim to restrict the amount of food the
+              stomach can hold or reduce the absorption of nutrients in the
+              digestive tract, leading to reduced calorie intake or
+              malabsorption.
+            </p>
+            <img
+              class="img-fluid shadow"
+              src="assets/img/four-surgery-specialist-in-operating-theater-treat-2023-02-02-01-12-15-utc.jpg"
+              style="border-radius: 22px"
+            />
+            <p class="py-xl-3 px-xl-3">
+              <strong>Here are some common types of bariatric surgeries:</strong
+              ><br /><br /><strong
+                ><em>Gastric Sleeve (Sleeve Gastrectomy):</em></strong
+              >
+              This surgery involves removing a large portion of the stomach,
+              leaving behind a smaller sleeve-shaped stomach. The reduced
+              stomach size restricts the amount of food that can be consumed,
+              leading to a feeling of fullness and reduced calorie intake.<br /><br /><strong
+                ><em>Gastric Bypass (Roux-en-Y Gastric Bypass):</em></strong
+              >
+              This procedure involves creating a small pouch at the top of the
+              stomach and connecting it directly to the small intestine. This
+              bypasses a portion of the stomach and the upper part of the small
+              intestine, limiting the amount of food intake and reducing calorie
+              absorption.<br /><br /><strong
+                ><em>Adjustable Gastric Band (Lap-Band):</em></strong
+              >
+              In this surgery, a band is placed around the upper part of the
+              stomach, creating a small pouch. The band can be adjusted to
+              control the passage of food and restrict the amount consumed.<br /><br /><strong
+                ><em>Duodenal Switch:</em></strong
+              >
+              This surgery combines a sleeve gastrectomy with intestinal bypass.
+              It involves removing a portion of the stomach and rerouting the
+              small intestine to reduce calorie absorption.<br /><br /><strong
+                >Bariatric surgeries are major interventions and are typically
+                recommended for individuals with a body mass index (BMI) above a
+                certain threshold or those who have obesity-related health
+                complications. These surgeries can result in significant weight
+                loss and improvement in obesity-related conditions such as type
+                2 diabetes, high blood pressure, and sleep apnea. However, they
+                also carry potential risks and require long-term lifestyle
+                changes and follow-up care.</strong
+              ><br /><br /><em
+                >It's important to note that bariatric surgeries are typically
+                considered after other weight loss methods, such as lifestyle
+                changes and medical interventions, have been unsuccessful. The
+                decision to undergo bariatric surgery should be made in
+                consultation with a healthcare professional specializing in
+                bariatric medicine or a bariatric surgeon.</em
+              ><br /><br />
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-light" type="button" data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-9">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title"><strong>Terms and Conditions</strong></h4>
+            <button
+              class="btn-close"
+              type="button"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid shadow"
+              src="assets/img/the-human-hand-fills-the-last-missing-elements-of-2022-11-14-16-03-47-utc.jpg"
+              style="border-radius: 45px"
+            />
+            <p class="py-lg-4">
+              <strong
+                >Terms and Conditions for Free BMI Calculator Website:</strong
+              ><br /><br />1. The free BMI calculator provided on this website
+              is intended for informational purposes only and should not be used
+              as a substitute for professional medical advice, diagnosis, or
+              treatment.<br /><br />2. By using the BMI calculator, you
+              acknowledge that the results are based on general formulas and may
+              not accurately reflect your specific health conditions or body
+              composition. It is recommended to consult with a healthcare
+              professional for a comprehensive assessment of your health and
+              weight-related concerns.<br /><br />3. The BMI calculator is
+              provided as-is, without any warranties or guarantees of accuracy,
+              reliability, or fitness for a particular purpose. We do not assume
+              any liability for the use or misuse of the calculator or reliance
+              on its results.<br /><br />4. Your use of the BMI calculator is
+              voluntary, and you agree to assume all risks associated with its
+              use. We are not responsible for any consequences, damages, or
+              losses resulting from the use of the calculator or reliance on its
+              results.<br /><br /><br /><strong
+                >By using the BMI calculator on this website, you indicate your
+                acceptance of these Terms and Conditions. If you do not agree
+                with any part of these terms, please refrain from using the
+                calculator or accessing the website.</strong
+              >
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-light" type="button" data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
